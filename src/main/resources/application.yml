@@ -1,0 +1,80 @@
+# 项目版本相关配置
+fireworks:
+  # 名称
+  name: Fireworks
+  # 版本
+  version: 2.3.0
+  # 版权年份
+  copyrightYear: 2020
+  # 实例演示开关
+  demoEnabled: true
+  # 文件路径 示例（ Windows配置D:/ruoyi/uploadPath，Linux配置 /home/ruoyi/uploadPath）
+  profile: D:/fireworks/uploadPath
+  # 获取ip地址开关
+  addressEnabled: false
+
+# token配置
+token:
+  # 令牌自定义标识
+  header: Authorization
+  # 令牌密钥
+  secret: abcdefghijklmnopqrstuvwxyz
+  # 令牌有效期（默认30分钟）
+  expireTime: 30
+
+
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/fireworks?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    druid:
+      max-wait: 150
+      min-idle: 5
+  mail:
+    host: smtp.qq.com
+    port: 465
+    username: 1332790762@qq.com
+    from: 1332790762@qq.com
+    subject: welcom to fireworks
+    # 授权码
+    password: eticwucpxzoshijj
+    default-encoding: utf-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          ssl:
+            enable: true
+
+  devtools: #热部署
+    remote:
+      restart:
+        enabled: true
+    restart:
+      additional-paths:
+        - src/main
+
+
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis:
+  mapper-locations:
+    - classpath:mapper/*.xml
+    - classpath*:com/**/mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+server:
+  port: 8083
+#debug: true
+nginx:
+  host:
+    http://192.168.213.129/
