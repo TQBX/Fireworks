@@ -47,6 +47,8 @@ public class Constants
      */
     public static final String LOGOUT = "Logout";
 
+
+
     /**
      * 登录失败
      */
@@ -56,6 +58,11 @@ public class Constants
      * 验证码 redis key
      */
     public static final String CAPTCHA_CODE_KEY = "captcha_codes:";
+
+    /**
+     * 激活码 redis key
+     */
+    public static final String ACTIVE_CODE_KEY = "active_code:";
 
     /**
      * 登录用户 redis key

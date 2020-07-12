@@ -1,0 +1,14 @@
+{
+  "docs": [
+    {
+      "_index": "book",
+      "_type": "article",
+      "_id": "01"
+    },
+    {
+      "_index": "book1",
+      "_type": "article",
+      "_id": "01"
+    }
+  ]
+}

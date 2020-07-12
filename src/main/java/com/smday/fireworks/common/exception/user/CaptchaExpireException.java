@@ -11,6 +11,6 @@ public class CaptchaExpireException extends UserException
 
     public CaptchaExpireException()
     {
-        super("user.jcaptcha.expire", null);
+        super("验证码已过期", null);
     }
 }

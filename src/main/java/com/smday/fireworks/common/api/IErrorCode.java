@@ -6,7 +6,7 @@ package com.smday.fireworks.common.api;
  */
 public interface IErrorCode {
 
-    long getCode();
+    int getCode();
 
     String getMessage();
 }

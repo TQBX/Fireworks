@@ -1,0 +1,554 @@
+17:32:26.683 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 14636 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+17:32:26.687 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:32:28.952 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+17:32:28.953 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:32:28.953 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+17:32:29.060 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:32:29.710 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:32:29.902 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+17:32:30.632 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+17:32:31.430 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+17:32:31.455 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+17:32:31.472 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+17:32:31.513 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+17:32:31.686 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 5.452 seconds (JVM running for 9.884)
+17:33:48.566 [http-nio-8083-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:33:50.888 [http-nio-8083-exec-2] INFO  c.s.f.p.c.CaptchaController - [getCode,58] - uuid--> 5cb3dbe3ea114538adb75a6683707995
+17:33:50.889 [http-nio-8083-exec-2] INFO  c.s.f.p.c.CaptchaController - [getCode,59] - code--> QKB4
+17:35:11.846 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+17:35:11.847 [SpringContextShutdownHook] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+18:18:31.177 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 4416 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+18:18:31.180 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:18:33.469 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+18:18:33.470 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:18:33.470 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18:18:33.575 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:18:34.204 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:18:34.399 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+18:18:35.090 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+18:18:35.936 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+18:18:35.967 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+18:18:36.036 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+18:18:36.083 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+18:18:36.272 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 5.678 seconds (JVM running for 8.101)
+18:21:19.916 [Thread-228] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+18:21:19.916 [Thread-228] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+18:21:20.176 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 4416 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+18:21:20.176 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:21:21.096 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+18:21:21.096 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:21:21.096 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18:21:21.122 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:21:21.290 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:21:21.408 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-2} inited
+18:21:21.843 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+18:21:22.222 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+18:21:22.228 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+18:21:22.229 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+18:21:22.239 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+18:21:22.267 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 2.152 seconds (JVM running for 174.096)
+18:21:22.596 [http-nio-8083-exec-9] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:21:41.329 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-2} closed
+18:21:41.330 [SpringContextShutdownHook] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+18:21:48.697 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 10456 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+18:21:48.701 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:21:50.900 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+18:21:50.901 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:21:50.901 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18:21:51.001 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:21:51.554 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:21:51.759 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+18:21:52.484 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+18:21:53.220 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+18:21:53.249 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+18:21:53.268 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+18:21:53.315 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+18:21:53.495 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 5.357 seconds (JVM running for 7.331)
+18:22:04.420 [http-nio-8083-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:23:32.506 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+18:23:32.506 [SpringContextShutdownHook] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+18:23:40.077 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 1824 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+18:23:40.081 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:23:42.242 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+18:23:42.243 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:23:42.243 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18:23:42.352 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:23:42.920 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:23:43.120 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+18:23:43.845 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+18:23:44.590 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+18:23:44.619 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+18:23:44.635 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+18:23:44.677 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+18:23:44.704 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 5.143 seconds (JVM running for 7.177)
+18:23:48.175 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:24:28.920 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+18:24:28.921 [SpringContextShutdownHook] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+18:24:36.052 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 3852 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+18:24:36.056 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:24:38.230 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+18:24:38.231 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:24:38.231 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18:24:38.336 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:24:38.911 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:24:39.120 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+18:24:39.847 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+18:24:40.571 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+18:24:40.602 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+18:24:40.621 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+18:24:40.662 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+18:24:40.844 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 5.301 seconds (JVM running for 7.291)
+18:24:43.118 [http-nio-8083-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:24:52.506 [http-nio-8083-exec-3] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> b31e1ecab0744e76a2604372c5db05ba
+18:24:52.506 [http-nio-8083-exec-3] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> EJW5
+18:26:32.709 [http-nio-8083-exec-4] INFO  c.s.f.c.JavaMailComponent - [send,42] - 邮件已经成功发送至邮箱
+18:27:54.006 [http-nio-8083-exec-5] INFO  c.s.f.s.s.UserDetailsServiceImpl - [loadUserByUsername,42] - 登录用户: zyw未激活
+18:27:57.478 [http-nio-8083-exec-5] INFO  c.s.f.s.s.SysLoginService - [login,70] - 登录异常: 用户未激活
+18:31:00.978 [http-nio-8083-exec-9] INFO  c.s.f.s.s.UserDetailsServiceImpl - [loadUserByUsername,42] - 登录用户: zyw未激活
+18:31:00.979 [http-nio-8083-exec-9] INFO  c.s.f.s.s.SysLoginService - [login,70] - 登录异常: 用户未激活
+18:33:41.007 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+18:33:41.007 [SpringContextShutdownHook] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+18:33:48.793 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 11544 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+18:33:48.797 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:33:51.078 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+18:33:51.079 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:33:51.079 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18:33:51.188 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:33:51.774 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:33:51.977 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+18:33:52.887 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+18:33:53.658 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+18:33:53.690 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+18:33:53.715 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+18:33:53.763 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+18:33:53.934 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 5.628 seconds (JVM running for 7.929)
+18:34:35.046 [http-nio-8083-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:35:52.646 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+18:35:52.646 [SpringContextShutdownHook] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+18:35:58.926 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 9324 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+18:35:58.962 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:36:01.075 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+18:36:01.075 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:36:01.076 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18:36:01.179 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:36:01.749 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:36:01.966 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+18:36:02.760 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+18:36:03.531 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+18:36:03.565 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+18:36:03.582 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+18:36:03.626 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+18:36:03.804 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 5.457 seconds (JVM running for 7.404)
+18:36:10.179 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:38:41.912 [Thread-228] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+18:38:41.913 [Thread-228] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+18:38:42.144 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 9324 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+18:38:42.144 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:38:43.041 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+18:38:43.041 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:38:43.041 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18:38:43.066 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:38:43.225 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:38:43.341 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-2} inited
+18:38:43.677 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+18:38:44.071 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+18:38:44.075 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+18:38:44.076 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+18:38:44.087 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+18:38:44.120 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 2.021 seconds (JVM running for 167.72)
+18:38:50.407 [http-nio-8083-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:43:17.823 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-2} closed
+18:43:17.824 [SpringContextShutdownHook] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+18:43:25.961 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 13980 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+18:43:25.965 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:43:28.352 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+18:43:28.353 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:43:28.353 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18:43:28.459 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:43:29.058 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:43:29.259 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+18:43:30.007 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+18:43:30.773 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+18:43:30.828 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+18:43:30.847 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+18:43:30.888 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+18:43:31.058 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 5.817 seconds (JVM running for 7.942)
+18:43:38.079 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:45:30.638 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+18:45:30.639 [SpringContextShutdownHook] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+18:45:40.182 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 15320 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+18:45:40.220 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:45:42.428 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+18:45:42.429 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:45:42.429 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18:45:42.537 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:45:43.144 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:45:43.353 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+18:45:44.185 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+18:45:45.088 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+18:45:45.115 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+18:45:45.133 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+18:45:45.184 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+18:45:45.408 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 5.747 seconds (JVM running for 7.81)
+18:46:00.157 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:47:47.981 [http-nio-8083-exec-5] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> ee4d861cdb2346ff9cccdb3113b36a31
+18:47:47.981 [http-nio-8083-exec-5] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> 1DH1
+18:50:39.710 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+18:50:39.711 [SpringContextShutdownHook] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+18:51:47.546 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 12100 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+18:51:47.551 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:51:50.664 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+18:51:50.664 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:51:50.665 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18:51:50.797 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:51:52.852 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:51:53.252 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+18:51:54.602 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+18:51:55.538 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+18:51:55.576 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+18:51:55.621 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+18:51:55.698 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+18:51:55.700 [http-nio-8083-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:51:55.967 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 9.208 seconds (JVM running for 12.458)
+18:52:21.255 [http-nio-8083-exec-5] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> 0df6eb1eb1664bed9a1469fb4168be16
+18:52:21.256 [http-nio-8083-exec-5] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> UBBP
+18:52:22.440 [http-nio-8083-exec-3] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> a00de23091e340ccba744ad2cabb53c8
+18:52:22.440 [http-nio-8083-exec-3] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> TG1G
+18:52:44.523 [http-nio-8083-exec-9] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> 07d8c3c6ffb84dd4b397bee79f53ac5f
+18:52:44.523 [http-nio-8083-exec-9] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> LTM3
+19:15:32.177 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+19:15:32.178 [SpringContextShutdownHook] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+19:20:51.512 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 3124 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+19:20:51.516 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:20:53.803 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+19:20:53.804 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+19:20:53.804 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+19:20:53.918 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+19:20:54.553 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:20:54.754 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+19:20:55.551 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+19:20:56.340 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+19:20:56.371 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+19:20:56.390 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+19:20:56.434 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+19:20:56.627 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 5.76 seconds (JVM running for 7.703)
+19:21:11.466 [http-nio-8083-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:21:30.569 [http-nio-8083-exec-6] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> 36d47e2cff294715a88b44767a7d956b
+19:21:30.569 [http-nio-8083-exec-6] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> M732
+19:22:05.197 [http-nio-8083-exec-5] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> 073116785bab460489e1039799462006
+19:22:05.197 [http-nio-8083-exec-5] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> 5KBR
+19:31:15.533 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+19:31:15.534 [SpringContextShutdownHook] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+19:38:53.530 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 2484 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+19:38:53.534 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:38:55.770 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+19:38:55.772 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+19:38:55.772 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+19:38:55.882 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+19:38:56.469 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:38:56.676 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+19:38:57.424 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+19:38:58.177 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+19:38:58.209 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+19:38:58.229 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+19:38:58.282 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+19:38:58.471 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 5.684 seconds (JVM running for 7.896)
+19:39:06.902 [http-nio-8083-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:39:39.233 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+19:39:39.234 [SpringContextShutdownHook] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+19:39:52.682 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 9504 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+19:39:52.685 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:39:55.675 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+19:39:55.676 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+19:39:55.676 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+19:39:55.793 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+19:39:56.399 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:39:56.606 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+19:39:57.408 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+19:39:58.159 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+19:39:58.190 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+19:39:58.209 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+19:39:58.254 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+19:39:58.460 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 6.6 seconds (JVM running for 8.8)
+19:40:03.457 [http-nio-8083-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:40:09.287 [http-nio-8083-exec-8] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> 3553338e8c7b4dce85db7ac9b1afdd8d
+19:40:09.287 [http-nio-8083-exec-8] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> NE66
+19:40:23.628 [http-nio-8083-exec-8] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> 65c184f790674604a14c44aff8d38c9c
+19:40:23.628 [http-nio-8083-exec-8] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> CPQ1
+19:46:27.054 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+19:46:27.055 [SpringContextShutdownHook] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+19:46:34.324 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 15112 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+19:46:34.328 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:46:36.604 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+19:46:36.605 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+19:46:36.605 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+19:46:36.723 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+19:46:37.352 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:46:37.560 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+19:46:38.440 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+19:46:39.225 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+19:46:39.262 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+19:46:39.297 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+19:46:39.361 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+19:46:39.627 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 5.817 seconds (JVM running for 7.883)
+19:46:46.067 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:46:58.095 [http-nio-8083-exec-1] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> 66a2b6e9ddfd4b9e890ceaac81ca1a42
+19:46:58.095 [http-nio-8083-exec-1] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> PRJF
+19:47:20.367 [http-nio-8083-exec-1] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> 98f880cd904c49a9afe78ed113eefc3b
+19:47:20.367 [http-nio-8083-exec-1] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> J5GB
+19:47:32.189 [http-nio-8083-exec-2] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> 97421ba357334171a9ae0c051093437f
+19:47:32.189 [http-nio-8083-exec-2] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> G3MX
+19:47:37.519 [http-nio-8083-exec-5] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> 290e05eed0484e529de8326666d95568
+19:47:37.520 [http-nio-8083-exec-5] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> S87G
+19:49:17.103 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+19:49:17.103 [SpringContextShutdownHook] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+19:49:24.967 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 12348 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+19:49:24.971 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:49:27.391 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+19:49:27.392 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+19:49:27.392 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+19:49:27.499 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+19:49:28.118 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:49:28.336 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+19:49:29.109 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+19:49:29.902 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+19:49:29.933 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+19:49:29.954 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+19:49:29.997 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+19:49:30.207 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 5.844 seconds (JVM running for 7.968)
+19:49:40.383 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:49:56.929 [http-nio-8083-exec-9] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> 7515993547b64593a31559ffa63ae63d
+19:49:56.929 [http-nio-8083-exec-9] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> KAU2
+20:08:08.021 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+20:08:08.021 [SpringContextShutdownHook] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+20:13:59.630 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 9916 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+20:13:59.634 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+20:14:01.895 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+20:14:01.896 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+20:14:01.896 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+20:14:02.013 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+20:14:02.617 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+20:14:02.816 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+20:14:03.568 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+20:14:04.346 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+20:14:04.377 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+20:14:04.395 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+20:14:04.445 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+20:14:04.640 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 5.556 seconds (JVM running for 7.537)
+20:14:09.276 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:14:22.168 [http-nio-8083-exec-3] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> d64a08e6df354b868ef10397176a3f49
+20:14:22.169 [http-nio-8083-exec-3] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> SAXR
+20:15:11.594 [http-nio-8083-exec-9] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> b1dafb846db94086a3a23c34ea7625a4
+20:15:11.595 [http-nio-8083-exec-9] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> BN5G
+20:15:42.784 [http-nio-8083-exec-3] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> 524b4dcd1b9348e785c5e4bfc90fb00b
+20:15:42.784 [http-nio-8083-exec-3] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> 6H8G
+20:27:16.514 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+20:27:16.515 [SpringContextShutdownHook] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+20:32:50.677 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 8200 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+20:32:50.681 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+20:32:52.859 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+20:32:52.860 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+20:32:52.860 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+20:32:52.962 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+20:32:53.530 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+20:32:53.726 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+20:32:54.481 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+20:32:55.198 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+20:32:55.225 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+20:32:55.242 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+20:32:55.280 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+20:32:55.454 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 5.281 seconds (JVM running for 7.967)
+20:34:58.282 [http-nio-8083-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:35:05.683 [http-nio-8083-exec-5] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> 94a40ade858c4321bc60a93013a4d7d6
+20:35:05.684 [http-nio-8083-exec-5] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> 9GG8
+20:36:41.651 [http-nio-8083-exec-10] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> 2aec266587e046ed912eb9222c7eb29f
+20:36:41.651 [http-nio-8083-exec-10] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> YDGU
+20:41:17.393 [http-nio-8083-exec-1] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> e025db6ce3e04ac29dfd20dab5379631
+20:41:17.396 [http-nio-8083-exec-1] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> 391W
+20:41:45.871 [http-nio-8083-exec-4] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> a24bd055603947fab75302dc2646ef38
+20:41:45.872 [http-nio-8083-exec-4] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> RAD6
+20:48:28.795 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+20:48:28.796 [SpringContextShutdownHook] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+20:48:35.821 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 7996 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+20:48:35.824 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+20:48:37.990 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+20:48:37.991 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+20:48:37.991 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+20:48:38.098 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+20:48:38.664 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+20:48:38.879 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+20:48:39.628 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+20:48:40.368 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+20:48:40.399 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+20:48:40.416 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+20:48:40.465 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+20:48:40.650 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 5.373 seconds (JVM running for 7.129)
+20:49:34.629 [http-nio-8083-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:49:49.330 [http-nio-8083-exec-6] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> d635dac1ed5248429e48d953134859c0
+20:49:49.330 [http-nio-8083-exec-6] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> FC2Y
+20:50:25.129 [http-nio-8083-exec-8] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> f3a1faf3c2cc43c882b2b1b2d59fe6ad
+20:50:25.131 [http-nio-8083-exec-8] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> T8W1
+20:50:49.942 [http-nio-8083-exec-5] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> 37aff3ae69a54f34827c4a42c5284edc
+20:50:49.943 [http-nio-8083-exec-5] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> NMY3
+20:50:51.011 [http-nio-8083-exec-6] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> 1986948bc5b847308dc746334139160b
+20:50:51.011 [http-nio-8083-exec-6] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> K8TL
+20:50:51.908 [http-nio-8083-exec-4] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> a88a14e458594debb4d3b702e827fb3a
+20:50:51.909 [http-nio-8083-exec-4] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> 5YK5
+20:51:00.944 [http-nio-8083-exec-7] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> 941a3da84b1d42daab23d9bd4281e18a
+20:51:00.944 [http-nio-8083-exec-7] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> AYQ5
+20:51:06.240 [http-nio-8083-exec-5] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> fa56c7f28ccb4a1180a1328c81fc87df
+20:51:06.240 [http-nio-8083-exec-5] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> XPLY
+20:51:27.287 [http-nio-8083-exec-8] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> 137aaf65d334461fab7b6e4679f8ac96
+20:51:27.287 [http-nio-8083-exec-8] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> CBPV
+20:53:09.773 [http-nio-8083-exec-8] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> 3da293d69db847dfa918215912f85da2
+20:53:09.774 [http-nio-8083-exec-8] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> B5F2
+20:54:05.297 [http-nio-8083-exec-1] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> e10a6a574e2d4304b10a504882e38c4b
+20:54:05.297 [http-nio-8083-exec-1] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> 1SSM
+21:00:11.848 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+21:00:11.856 [SpringContextShutdownHook] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+21:00:19.314 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 2480 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+21:00:19.318 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+21:00:21.496 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+21:00:21.497 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:00:21.497 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+21:00:21.603 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:00:22.189 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+21:00:22.394 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+21:00:23.127 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+21:00:23.827 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+21:00:23.853 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+21:00:23.871 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+21:00:23.918 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+21:00:24.081 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 5.226 seconds (JVM running for 7.241)
+21:01:03.270 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+21:01:03.271 [SpringContextShutdownHook] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+21:01:08.638 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 9928 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+21:01:08.642 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+21:01:10.811 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+21:01:10.811 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:01:10.812 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+21:01:10.920 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:01:11.481 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+21:01:11.682 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+21:01:12.401 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+21:01:13.113 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+21:01:13.143 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+21:01:13.164 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+21:01:13.206 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+21:01:13.374 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 5.241 seconds (JVM running for 7.126)
+21:01:29.563 [http-nio-8083-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:01:44.371 [http-nio-8083-exec-4] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> f238884407bd4801b0978395493d0ccb
+21:01:44.371 [http-nio-8083-exec-4] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> B61L
+21:02:31.679 [http-nio-8083-exec-6] INFO  c.s.f.c.JavaMailComponent - [send,42] - 邮件已经成功发送至邮箱
+21:04:06.681 [http-nio-8083-exec-3] INFO  c.s.f.s.s.UserDetailsServiceImpl - [loadUserByUsername,42] - 登录用户: qdx1未激活
+21:04:06.682 [http-nio-8083-exec-3] INFO  c.s.f.s.s.SysLoginService - [login,70] - 登录异常: 用户未激活
+21:04:26.134 [http-nio-8083-exec-4] INFO  c.s.f.s.s.UserDetailsServiceImpl - [loadUserByUsername,42] - 登录用户: qdx1未激活
+21:04:26.134 [http-nio-8083-exec-4] INFO  c.s.f.s.s.SysLoginService - [login,70] - 登录异常: 用户未激活
+21:06:49.607 [http-nio-8083-exec-10] INFO  c.s.f.s.s.UserDetailsServiceImpl - [loadUserByUsername,42] - 登录用户: qdx1未激活
+21:06:49.608 [http-nio-8083-exec-10] INFO  c.s.f.s.s.SysLoginService - [login,70] - 登录异常: 用户未激活
+21:07:05.087 [http-nio-8083-exec-8] INFO  c.s.f.s.s.UserDetailsServiceImpl - [loadUserByUsername,42] - 登录用户: qdx1未激活
+21:07:05.088 [http-nio-8083-exec-8] INFO  c.s.f.s.s.SysLoginService - [login,70] - 登录异常: 用户未激活
+21:07:39.209 [http-nio-8083-exec-7] INFO  c.s.f.s.s.UserDetailsServiceImpl - [loadUserByUsername,42] - 登录用户: qdx1未激活
+21:07:39.210 [http-nio-8083-exec-7] INFO  c.s.f.s.s.SysLoginService - [login,70] - 登录异常: 用户未激活
+21:07:48.722 [http-nio-8083-exec-6] INFO  c.s.f.s.s.UserDetailsServiceImpl - [loadUserByUsername,42] - 登录用户: qdx1未激活
+21:07:48.723 [http-nio-8083-exec-6] INFO  c.s.f.s.s.SysLoginService - [login,70] - 登录异常: 用户未激活
+21:07:55.902 [http-nio-8083-exec-2] INFO  c.s.f.s.s.UserDetailsServiceImpl - [loadUserByUsername,42] - 登录用户: qdx1未激活
+21:07:55.903 [http-nio-8083-exec-2] INFO  c.s.f.s.s.SysLoginService - [login,70] - 登录异常: 用户未激活
+21:11:38.750 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+21:11:38.751 [SpringContextShutdownHook] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+21:11:50.418 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 2856 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+21:11:50.426 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+21:11:54.405 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+21:11:54.407 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:11:54.407 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+21:11:54.599 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:11:55.731 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+21:11:55.993 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+21:11:57.070 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+21:11:58.057 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+21:11:58.093 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+21:11:58.118 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+21:11:58.178 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+21:11:58.431 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 8.976 seconds (JVM running for 12.083)
+21:12:28.963 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:12:32.857 [http-nio-8083-exec-4] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> 9d068b3d78bd4672a17da044b4b4a030
+21:12:32.858 [http-nio-8083-exec-4] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> VCT8
+21:12:41.321 [http-nio-8083-exec-8] INFO  c.s.f.s.s.UserDetailsServiceImpl - [loadUserByUsername,42] - 登录用户: qdx1未激活
+21:12:41.322 [http-nio-8083-exec-8] INFO  c.s.f.s.s.SysLoginService - [login,70] - 登录异常: 用户未激活
+21:13:22.059 [http-nio-8083-exec-7] INFO  c.s.f.s.s.UserDetailsServiceImpl - [loadUserByUsername,42] - 登录用户: qdx1未激活
+21:13:22.060 [http-nio-8083-exec-7] INFO  c.s.f.s.s.SysLoginService - [login,70] - 登录异常: 用户未激活
+21:13:27.870 [http-nio-8083-exec-6] INFO  c.s.f.s.s.UserDetailsServiceImpl - [loadUserByUsername,42] - 登录用户: qdx1未激活
+21:13:27.870 [http-nio-8083-exec-6] INFO  c.s.f.s.s.SysLoginService - [login,70] - 登录异常: 用户未激活
+21:14:30.540 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+21:14:30.540 [SpringContextShutdownHook] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+21:18:58.350 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 8148 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+21:18:58.354 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+21:19:01.508 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+21:19:01.508 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:19:01.509 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+21:19:01.697 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:19:02.469 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+21:19:02.724 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+21:19:03.745 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+21:19:04.676 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+21:19:04.712 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+21:19:04.736 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+21:19:04.793 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+21:19:05.053 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 7.616 seconds (JVM running for 10.702)
+21:19:17.128 [http-nio-8083-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:19:17.603 [http-nio-8083-exec-2] INFO  c.s.f.s.s.UserDetailsServiceImpl - [loadUserByUsername,42] - 登录用户: qdx1未激活
+21:19:17.604 [http-nio-8083-exec-2] INFO  c.s.f.s.s.SysLoginService - [login,49] - 登录异常: 用户未激活
+21:19:37.243 [http-nio-8083-exec-5] INFO  c.s.f.s.s.UserDetailsServiceImpl - [loadUserByUsername,42] - 登录用户: qdx1未激活
+21:19:37.244 [http-nio-8083-exec-5] INFO  c.s.f.s.s.SysLoginService - [login,49] - 登录异常: 用户未激活
+21:20:27.324 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+21:20:27.325 [SpringContextShutdownHook] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+22:29:58.315 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 10424 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+22:29:58.322 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+22:30:00.441 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+22:30:00.441 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:30:00.442 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+22:30:00.537 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:30:01.084 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+22:30:01.262 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+22:30:01.991 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+22:30:02.671 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+22:30:02.693 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+22:30:02.706 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+22:30:02.736 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+22:30:02.872 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 5.215 seconds (JVM running for 7.533)
+22:30:13.677 [http-nio-8083-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:30:47.726 [Thread-227] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+22:30:47.727 [Thread-227] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+22:30:47.896 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 10424 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+22:30:47.897 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+22:30:48.490 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+22:30:48.490 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:30:48.491 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+22:30:48.513 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:30:48.640 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+22:30:48.735 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-2} inited
+22:30:49.030 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+22:30:49.313 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+22:30:49.316 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+22:30:49.317 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+22:30:49.323 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+22:30:49.347 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 1.484 seconds (JVM running for 54.008)
+22:31:02.899 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:31:13.360 [http-nio-8083-exec-6] INFO  c.s.f.p.c.CaptchaController - [getCode,62] - uuid--> 0aa16bed609a42d7a37eb685093c3f06
+22:31:13.361 [http-nio-8083-exec-6] INFO  c.s.f.p.c.CaptchaController - [getCode,63] - code--> C1MQ
+22:34:20.259 [Thread-235] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-2} closed
+22:34:20.259 [Thread-235] INFO  sys-user - [shutdownAsyncManager,32] - ====关闭后台任务任务线程池====
+22:34:20.653 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarting,55] - Starting FireworksApplication on DESKTOP-QFK0MBG with PID 10424 (D:\Java_Project\fireworks\target\classes started by summerday in D:\Java_Project\fireworks)
+22:34:20.653 [restartedMain] INFO  c.s.f.FireworksApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+22:34:21.262 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+22:34:21.263 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:34:21.264 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+22:34:21.292 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:34:21.465 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+22:34:21.578 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-3} inited
+22:34:21.920 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+22:34:22.225 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+22:34:22.228 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+22:34:22.228 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+22:34:22.233 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+22:34:22.255 [restartedMain] INFO  c.s.f.FireworksApplication - [logStarted,61] - Started FireworksApplication in 1.634 seconds (JVM running for 266.916)

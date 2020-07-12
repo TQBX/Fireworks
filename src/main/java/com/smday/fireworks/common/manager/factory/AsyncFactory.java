@@ -7,10 +7,11 @@ import com.smday.fireworks.common.utils.ServletUtils;
 import com.smday.fireworks.common.utils.ip.AddressUtils;
 import com.smday.fireworks.common.utils.ip.IpUtils;
 import com.smday.fireworks.common.utils.spring.SpringUtils;
-import com.smday.fireworks.mbg.model.SmsLoginInfo;
-import com.smday.fireworks.mbg.model.SmsOperLog;
-import com.smday.fireworks.service.ISmsLoginInfoService;
-import com.smday.fireworks.service.ISmsOperLogService;
+import com.smday.fireworks.mbg.model.SysLoginInfo;
+import com.smday.fireworks.mbg.model.SysOperLog;
+
+import com.smday.fireworks.service.ISysLoginInfoService;
+import com.smday.fireworks.service.ISysOperLogService;
 import eu.bitwalker.useragentutils.UserAgent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,7 +20,7 @@ import java.util.TimerTask;
 
 /**
  * 异步工厂（产生任务用）
- * 
+ *
  * @author ruoyi
  */
 public class AsyncFactory
@@ -28,7 +29,7 @@ public class AsyncFactory
 
     /**
      * 记录登陆信息
-     * 
+     *
      * @param username 用户名
      * @param status 状态
      * @param message 消息
@@ -59,7 +60,7 @@ public class AsyncFactory
                 // 获取客户端浏览器
                 String browser = userAgent.getBrowser().getName();
                 // 封装对象
-                SmsLoginInfo logininfor = new SmsLoginInfo();
+                SysLoginInfo logininfor = new SysLoginInfo();
                 logininfor.setUserName(username);
                 logininfor.setIpaddr(ip);
                 logininfor.setLoginLocation(address);
@@ -76,18 +77,18 @@ public class AsyncFactory
                     logininfor.setStatus(Constants.FAIL);
                 }
                 // 插入数据
-                SpringUtils.getBean(ISmsLoginInfoService.class).insertLoginInfo(logininfor);
+                SpringUtils.getBean(ISysLoginInfoService.class).insertLoginInfo(logininfor);
             }
         };
     }
 
     /**
      * 操作日志记录
-     * 
+     *
      * @param operLog 操作日志信息
      * @return 任务task
      */
-    public static TimerTask recordOper(final SmsOperLog operLog)
+    public static TimerTask recordOper(final SysOperLog operLog)
     {
         return new TimerTask()
         {
@@ -96,7 +97,7 @@ public class AsyncFactory
             {
                 // 远程查询操作地点
                 operLog.setOperLocation(AddressUtils.getRealAddressByIP(operLog.getOperIp()));
-                SpringUtils.getBean(ISmsOperLogService.class).insertOperLog(operLog);
+                SpringUtils.getBean(ISysOperLogService.class).insertOperLog(operLog);
             }
         };
     }
